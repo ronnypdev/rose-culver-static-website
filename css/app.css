@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Bluu Next';
+  src: url('../fonts/bluunext.woff2'), url('../fonts/bluunext.woff');
+}
+
+body {
+  font-family: 'Bluu Next', Arial, Times New Roman;
+  font-size: 24px;
+  line-height: 1.25;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 40px auto 40px auto;
+  width: 620px;
+}
+
+h1 {
+  font-size: 24px;
+}
