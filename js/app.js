@@ -5,6 +5,11 @@ const nextTag = document.querySelector('.next');
 
 const next = () => {
   pageNumber = pageNumber + 1;
+
+  if (pageNumber > 10) {
+    pageNumber = 1;
+  }
+
   updateSection();
 };
 
